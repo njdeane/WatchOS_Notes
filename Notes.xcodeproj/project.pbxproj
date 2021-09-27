@@ -17,6 +17,9 @@
 		A6B3FF2E27013CA90060ED0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B3FF2D27013CA90060ED0F /* Preview Assets.xcassets */; };
 		A6B3FF402701401F0060ED0F /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3FF3F2701401F0060ED0F /* Note.swift */; };
 		A6D96116270159B500444476 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D96115270159B500444476 /* DetailView.swift */; };
+		A6D961182701817C00444476 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D961172701817C00444476 /* CreditsView.swift */; };
+		A6D9611B2701821B00444476 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D9611A2701821B00444476 /* HeaderView.swift */; };
+		A6D9611D2701879600444476 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D9611C2701879600444476 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		A6B3FF2F27013CA90060ED0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6B3FF3F2701401F0060ED0F /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		A6D96115270159B500444476 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A6D961172701817C00444476 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		A6D9611A2701821B00444476 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A6D9611C2701879600444476 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,7 @@
 		A6B3FF2327013CA80060ED0F /* Notes WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A6D961192701820A00444476 /* Component */,
 				A6B3FF3E270140100060ED0F /* Model */,
 				A6B3FF3D27013FFE0060ED0F /* View */,
 				A6B3FF2627013CA80060ED0F /* NotesApp.swift */,
@@ -143,6 +150,8 @@
 			children = (
 				A6B3FF2427013CA80060ED0F /* ContentView.swift */,
 				A6D96115270159B500444476 /* DetailView.swift */,
+				A6D961172701817C00444476 /* CreditsView.swift */,
+				A6D9611C2701879600444476 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +162,14 @@
 				A6B3FF3F2701401F0060ED0F /* Note.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A6D961192701820A00444476 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A6D9611A2701821B00444476 /* HeaderView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,10 +299,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B3FF2527013CA80060ED0F /* ContentView.swift in Sources */,
+				A6D9611D2701879600444476 /* SettingsView.swift in Sources */,
 				A6B3FF2727013CA80060ED0F /* NotesApp.swift in Sources */,
 				A6B3FF2927013CA80060ED0F /* ComplicationController.swift in Sources */,
+				A6D961182701817C00444476 /* CreditsView.swift in Sources */,
 				A6D96116270159B500444476 /* DetailView.swift in Sources */,
 				A6B3FF402701401F0060ED0F /* Note.swift in Sources */,
+				A6D9611B2701821B00444476 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
